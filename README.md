@@ -10,4 +10,4 @@ Line Today 爬蟲
 <code> pip install sqlalchemy</code></br>
 <code> pip install pyodbc</code></br>
 將dataframe直接塞入DB</br>
-<code> dataframe.to_sql('<table name>', engine, index=False, if_exists='append')</code></br>
+<code> dataframe.to_sql('table_name', engine, index=False, if_exists='append')</code></br>
